@@ -8,12 +8,12 @@ import './index.css'
 const Home = () => {
     let navigate = useNavigate();
 
-    const handleEdit = (id,name,category,date) => {
+    /*const handleEdit = (id,name,category,date) => {
         localStorage.setItem("Name",name)
         localStorage.setItem("Category",category)
         localStorage.setItem("Id",id)
         localStorage.setItem("Date",date)
-    }
+    }*/
     const handleDelete = (id) => {
         var index = items.map(function(e){
             return e.id
@@ -64,9 +64,7 @@ const Home = () => {
                                     <td>{item.category}</td>
                                     <td>{item.date}</td>
                                     <td>
-                                        <Link to="/edit">
-                                        <Button onClick={() => handleEdit(item.id,item.name,item.category,item.date)}>Edit</Button>
-                                        </Link>
+                                        <Button>Edit</Button>
                                         &nbsp;
                                         <Button onClick={() => handleDelete(item.id)}>Delete</Button>
                                     </td>
