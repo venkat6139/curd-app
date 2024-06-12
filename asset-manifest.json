@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/curd-app/static/css/main.1c54cf99.css",
+    "main.js": "/curd-app/static/js/main.2c168b4d.js",
+    "static/js/453.3d042617.chunk.js": "/curd-app/static/js/453.3d042617.chunk.js",
+    "index.html": "/curd-app/index.html",
+    "main.1c54cf99.css.map": "/curd-app/static/css/main.1c54cf99.css.map",
+    "main.2c168b4d.js.map": "/curd-app/static/js/main.2c168b4d.js.map",
+    "453.3d042617.chunk.js.map": "/curd-app/static/js/453.3d042617.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c54cf99.css",
+    "static/js/main.2c168b4d.js"
+  ]
+}
